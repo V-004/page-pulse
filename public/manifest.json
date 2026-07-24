@@ -1,0 +1,9 @@
+{
+  "name": "Page Pulse",
+  "short_name": "Page Pulse",
+  "description": "Page Pulse is a modern web page auditing tool that analyzes HTTP status, response time, page title, meta description, H1 structure, image accessibility, page size, and approximate word count.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#6366f1",
+  "background_color": "#0f172a"
+}

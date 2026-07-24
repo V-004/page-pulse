@@ -1,0 +1,6 @@
+{
+  "name": "Page Pulse",
+  "description": "Full-stack web auditing tool that checks HTTP status, response time, meta tags, H1 count, missing image alt text, and word count.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
