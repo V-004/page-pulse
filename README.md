@@ -1,16 +1,16 @@
 # ⚡ Page Pulse – Web Audit & SEO Health Engine
 
-A full-stack web application that analyzes any public website and generates a technical SEO and accessibility report in seconds.
+A full-stack web application that analyzes any public website and generates a comprehensive technical SEO and accessibility report in seconds.
 
-Page Pulse enables developers, SEO analysts, and digital marketers to quickly evaluate the technical health of a website through a clean React interface powered by a Flask REST API.
+Page Pulse enables developers, SEO analysts, and digital marketers to evaluate the technical health of websites through a modern React interface powered by a Flask REST API.
 
 ---
 
 ## 🚀 Live Demo
 
-**Frontend:** Coming Soon (Deployment in Progress)
+**Frontend:** *Coming Soon (Deployment in Progress)*
 
-**Backend API:** Coming Soon (Deployment in Progress)
+**Backend API:** *Coming Soon (Deployment in Progress)*
 
 ---
 
@@ -24,27 +24,11 @@ Screenshots will be added after deployment.
 
 ---
 
-# 📑 Table of Contents
-
-- Project Overview
-- Features
-- Tech Stack
-- System Architecture
-- Project Structure
-- REST API
-- Running Locally
-- Future Improvements
-- Author
-
----
-
 # 📖 Project Overview
 
-Page Pulse performs a live audit of any public website by requesting its HTML content, parsing the webpage, and extracting useful SEO and accessibility metrics.
+Page Pulse performs a live audit of any publicly accessible website by fetching its HTML content, parsing the webpage, and extracting important SEO and accessibility metrics.
 
-The application provides technical insights including response time, HTTP status, metadata quality, heading structure, image accessibility, and overall content statistics.
-
-It is designed with a modern React frontend and a lightweight Flask backend to provide fast and reliable website analysis.
+The application provides insights into website performance, metadata quality, heading structure, image accessibility, and content statistics through an intuitive dashboard.
 
 ---
 
@@ -81,7 +65,7 @@ It is designed with a modern React frontend and a lightweight Flask backend to p
 
 ---
 
-# 🛠 Tech Stack
+# 🛠️ Tech Stack
 
 ## Frontend
 
@@ -101,31 +85,31 @@ It is designed with a modern React frontend and a lightweight Flask backend to p
 
 ---
 
-# 🏗 System Architecture
+# 🏗️ System Architecture
 
 ```text
-              User
-               │
-               ▼
-      React Frontend (Vite)
-               │
-        HTTP API Request
-               │
-               ▼
-        Flask REST Backend
-               │
-      Fetch Target Website
-               │
-               ▼
- BeautifulSoup HTML Parser
-               │
-      SEO & Accessibility Analysis
-               │
-               ▼
-          JSON Response
-               │
-               ▼
-       Results Dashboard
+                 User
+                   │
+                   ▼
+        React Frontend (Vite)
+                   │
+            HTTP API Request
+                   │
+                   ▼
+         Flask REST API Backend
+                   │
+         Fetch Target Website
+                   │
+                   ▼
+      BeautifulSoup HTML Parser
+                   │
+     SEO & Accessibility Analysis
+                   │
+                   ▼
+            JSON API Response
+                   │
+                   ▼
+          Results Dashboard
 ```
 
 ---
@@ -204,15 +188,11 @@ git clone <repository-url>
 cd page-pulse
 ```
 
----
-
 ## Backend
 
 ```bash
 cd backend
-
 pip install -r requirements.txt
-
 python app.py
 ```
 
@@ -222,13 +202,10 @@ Backend runs on:
 http://localhost:5000
 ```
 
----
-
 ## Frontend
 
 ```bash
 npm install
-
 npm run dev
 ```
 
@@ -259,6 +236,6 @@ Developed as part of the **Digital Heroes Software Development Assessment** usin
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project was created for educational and assessment purposes.
