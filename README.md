@@ -8,15 +8,15 @@ The application measures response time, validates HTTP status codes, extracts im
 
 ## 🚀 Live Demo
 
-**Frontend:** *(Add after deployment)*
+**Frontend:** *(Will Add after deployment)*
 
-**Backend API:** *(Add after deployment)*
+**Backend API:** *(Will Add after deployment)*
 
 ---
 
 ## 📷 Screenshots
 
-> Add screenshots after deployment.
+> Will Add screenshots after deployment.
 
 - Home Page
 - Audit Results
